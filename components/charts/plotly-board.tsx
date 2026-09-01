@@ -126,7 +126,7 @@ export function PlotlyBoard({ data, layout, frames, isDark = true }: PlotlyBoard
           "resetCameraLastSave3d",
           "hoverClosest3d",
         ],
-        modeBarButtonsToRemove: ["lasso2d", "select2d", "sendDataToCloud", "toggleSpikelines"],
+        modeBarButtonsToRemove: ["lasso2d", "select2d", "sendChartToCloud", "toggleSpikelines"],
         toImageButtonOptions: {
           format: "png",
           filename: "data-pilot-chart",
